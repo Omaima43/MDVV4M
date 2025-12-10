@@ -1,0 +1,22 @@
+@RoomService_Host =http://localhost:5202
+
+### Test REATE ROOM
+POST {{RoomService_Host}}/rooms/create
+Content-Type: application/json
+
+{
+  "hostUserId": "4c51d6d5-6f5d-412b-a2cb-b7fe17468a28"
+}
+
+###
+
+### Test JOIN ROOM
+POST http://localhost:5202/rooms/19459dca-534e-4756-a031-3aaed6bb8e13/join
+Content-Type: application/json
+
+{
+  "userId": "3cf276a0-6ce4-471c-8c71-a980f4c1f3c7"
+}
+
+### 
+
