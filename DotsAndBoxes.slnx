@@ -1,1 +1,5 @@
-<Solution />
+<Solution>
+  <Project Path="services/GameRulesServices/GameRulesServices.csproj" Id="bb68ced4-edc2-454a-b8c9-3011acf9981d" />
+  <Project Path="services/RoomService/RoomService.csproj" Id="03b95c14-fe7f-441b-9ae6-c2bcf3352fe5" />
+  <Project Path="services/UserService/UserService.csproj" Id="30a0c15c-8c0b-499b-a03a-64ead5dc4a3a" />
+</Solution>
