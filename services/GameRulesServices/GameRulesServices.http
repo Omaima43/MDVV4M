@@ -1,0 +1,25 @@
+@host = http://localhost:5045
+
+POST {{host}}/rules/apply-move
+Content-Type: application/json
+
+{
+  "userId": "4c51d6d5-6f5d-412b-a2cb-b7fe17468a28",
+  "line": { "x1": 0, "y1": 0, "x2": 1, "y2": 0 },
+  "currentState": {
+    "rows": 4,
+    "columns": 4,
+    "lines": [],
+    "boxes": [
+      { "row": 0, "col": 0, "ownerUserId": null },
+      { "row": 0, "col": 1, "ownerUserId": null },
+      { "row": 0, "col": 2, "ownerUserId": null },
+      { "row": 1, "col": 0, "ownerUserId": null },
+      { "row": 1, "col": 1, "ownerUserId": null },
+      { "row": 1, "col": 2, "ownerUserId": null },
+      { "row": 2, "col": 0, "ownerUserId": null },
+      { "row": 2, "col": 1, "ownerUserId": null },
+      { "row": 2, "col": 2, "ownerUserId": null }
+    ]
+  }
+}
